@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65DD69541DA7129E00815429 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DD69531DA7129E00815429 /* AppDelegate.swift */; };
+		65DD69561DA7129E00815429 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DD69551DA7129E00815429 /* ViewController.swift */; };
+		65DD69591DA7129E00815429 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65DD69571DA7129E00815429 /* Main.storyboard */; };
+		65DD695C1DA7129E00815429 /* Messiah_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65DD695A1DA7129E00815429 /* Messiah_App.xcdatamodeld */; };
+		65DD695E1DA7129E00815429 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65DD695D1DA7129E00815429 /* Assets.xcassets */; };
+		65DD69611DA7129E00815429 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65DD695F1DA7129E00815429 /* LaunchScreen.storyboard */; };
+		65DD696C1DA7129E00815429 /* Messiah_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DD696B1DA7129E00815429 /* Messiah_AppTests.swift */; };
+		65DD69771DA7129F00815429 /* Messiah_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DD69761DA7129F00815429 /* Messiah_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65DD69681DA7129E00815429 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65DD69481DA7129D00815429 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65DD694F1DA7129D00815429;
+			remoteInfo = "Messiah App";
+		};
+		65DD69731DA7129F00815429 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65DD69481DA7129D00815429 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65DD694F1DA7129D00815429;
+			remoteInfo = "Messiah App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		65DD69501DA7129E00815429 /* Messiah App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Messiah App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65DD69531DA7129E00815429 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65DD69551DA7129E00815429 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65DD69581DA7129E00815429 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65DD695B1DA7129E00815429 /* Messiah_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Messiah_App.xcdatamodel; sourceTree = "<group>"; };
+		65DD695D1DA7129E00815429 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65DD69601DA7129E00815429 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65DD69621DA7129E00815429 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65DD69671DA7129E00815429 /* Messiah AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Messiah AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65DD696B1DA7129E00815429 /* Messiah_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messiah_AppTests.swift; sourceTree = "<group>"; };
+		65DD696D1DA7129F00815429 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65DD69721DA7129F00815429 /* Messiah AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Messiah AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65DD69761DA7129F00815429 /* Messiah_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messiah_AppUITests.swift; sourceTree = "<group>"; };
+		65DD69781DA7129F00815429 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65DD694D1DA7129D00815429 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65DD69641DA7129E00815429 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65DD696F1DA7129F00815429 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65DD69471DA7129D00815429 = {
+			isa = PBXGroup;
+			children = (
+				65DD69521DA7129E00815429 /* Messiah App */,
+				65DD696A1DA7129E00815429 /* Messiah AppTests */,
+				65DD69751DA7129F00815429 /* Messiah AppUITests */,
+				65DD69511DA7129E00815429 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65DD69511DA7129E00815429 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65DD69501DA7129E00815429 /* Messiah App.app */,
+				65DD69671DA7129E00815429 /* Messiah AppTests.xctest */,
+				65DD69721DA7129F00815429 /* Messiah AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65DD69521DA7129E00815429 /* Messiah App */ = {
+			isa = PBXGroup;
+			children = (
+				65DD69531DA7129E00815429 /* AppDelegate.swift */,
+				65DD69551DA7129E00815429 /* ViewController.swift */,
+				65DD69571DA7129E00815429 /* Main.storyboard */,
+				65DD695D1DA7129E00815429 /* Assets.xcassets */,
+				65DD695F1DA7129E00815429 /* LaunchScreen.storyboard */,
+				65DD69621DA7129E00815429 /* Info.plist */,
+				65DD695A1DA7129E00815429 /* Messiah_App.xcdatamodeld */,
+			);
+			path = "Messiah App";
+			sourceTree = "<group>";
+		};
+		65DD696A1DA7129E00815429 /* Messiah AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				65DD696B1DA7129E00815429 /* Messiah_AppTests.swift */,
+				65DD696D1DA7129F00815429 /* Info.plist */,
+			);
+			path = "Messiah AppTests";
+			sourceTree = "<group>";
+		};
+		65DD69751DA7129F00815429 /* Messiah AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				65DD69761DA7129F00815429 /* Messiah_AppUITests.swift */,
+				65DD69781DA7129F00815429 /* Info.plist */,
+			);
+			path = "Messiah AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65DD694F1DA7129D00815429 /* Messiah App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65DD697B1DA7129F00815429 /* Build configuration list for PBXNativeTarget "Messiah App" */;
+			buildPhases = (
+				65DD694C1DA7129D00815429 /* Sources */,
+				65DD694D1DA7129D00815429 /* Frameworks */,
+				65DD694E1DA7129D00815429 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Messiah App";
+			productName = "Messiah App";
+			productReference = 65DD69501DA7129E00815429 /* Messiah App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65DD69661DA7129E00815429 /* Messiah AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65DD697E1DA7129F00815429 /* Build configuration list for PBXNativeTarget "Messiah AppTests" */;
+			buildPhases = (
+				65DD69631DA7129E00815429 /* Sources */,
+				65DD69641DA7129E00815429 /* Frameworks */,
+				65DD69651DA7129E00815429 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65DD69691DA7129E00815429 /* PBXTargetDependency */,
+			);
+			name = "Messiah AppTests";
+			productName = "Messiah AppTests";
+			productReference = 65DD69671DA7129E00815429 /* Messiah AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		65DD69711DA7129F00815429 /* Messiah AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65DD69811DA7129F00815429 /* Build configuration list for PBXNativeTarget "Messiah AppUITests" */;
+			buildPhases = (
+				65DD696E1DA7129F00815429 /* Sources */,
+				65DD696F1DA7129F00815429 /* Frameworks */,
+				65DD69701DA7129F00815429 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65DD69741DA7129F00815429 /* PBXTargetDependency */,
+			);
+			name = "Messiah AppUITests";
+			productName = "Messiah AppUITests";
+			productReference = 65DD69721DA7129F00815429 /* Messiah AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65DD69481DA7129D00815429 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Thomas Martin";
+				TargetAttributes = {
+					65DD694F1DA7129D00815429 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = TVXD979JG4;
+						ProvisioningStyle = Automatic;
+					};
+					65DD69661DA7129E00815429 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = TVXD979JG4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 65DD694F1DA7129D00815429;
+					};
+					65DD69711DA7129F00815429 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = TVXD979JG4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 65DD694F1DA7129D00815429;
+					};
+				};
+			};
+			buildConfigurationList = 65DD694B1DA7129D00815429 /* Build configuration list for PBXProject "Messiah App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65DD69471DA7129D00815429;
+			productRefGroup = 65DD69511DA7129E00815429 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65DD694F1DA7129D00815429 /* Messiah App */,
+				65DD69661DA7129E00815429 /* Messiah AppTests */,
+				65DD69711DA7129F00815429 /* Messiah AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65DD694E1DA7129D00815429 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65DD69611DA7129E00815429 /* LaunchScreen.storyboard in Resources */,
+				65DD695E1DA7129E00815429 /* Assets.xcassets in Resources */,
+				65DD69591DA7129E00815429 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65DD69651DA7129E00815429 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65DD69701DA7129F00815429 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65DD694C1DA7129D00815429 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65DD69561DA7129E00815429 /* ViewController.swift in Sources */,
+				65DD695C1DA7129E00815429 /* Messiah_App.xcdatamodeld in Sources */,
+				65DD69541DA7129E00815429 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65DD69631DA7129E00815429 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65DD696C1DA7129E00815429 /* Messiah_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65DD696E1DA7129F00815429 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65DD69771DA7129F00815429 /* Messiah_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65DD69691DA7129E00815429 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65DD694F1DA7129D00815429 /* Messiah App */;
+			targetProxy = 65DD69681DA7129E00815429 /* PBXContainerItemProxy */;
+		};
+		65DD69741DA7129F00815429 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65DD694F1DA7129D00815429 /* Messiah App */;
+			targetProxy = 65DD69731DA7129F00815429 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		65DD69571DA7129E00815429 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65DD69581DA7129E00815429 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65DD695F1DA7129E00815429 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65DD69601DA7129E00815429 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65DD69791DA7129F00815429 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65DD697A1DA7129F00815429 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65DD697C1DA7129F00815429 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TVXD979JG4;
+				INFOPLIST_FILE = "Messiah App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.unanonymous.Messiah-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		65DD697D1DA7129F00815429 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TVXD979JG4;
+				INFOPLIST_FILE = "Messiah App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.unanonymous.Messiah-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		65DD697F1DA7129F00815429 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = TVXD979JG4;
+				INFOPLIST_FILE = "Messiah AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.unanonymous.Messiah-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Messiah App.app/Messiah App";
+			};
+			name = Debug;
+		};
+		65DD69801DA7129F00815429 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = TVXD979JG4;
+				INFOPLIST_FILE = "Messiah AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.unanonymous.Messiah-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Messiah App.app/Messiah App";
+			};
+			name = Release;
+		};
+		65DD69821DA7129F00815429 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = TVXD979JG4;
+				INFOPLIST_FILE = "Messiah AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.unanonymous.Messiah-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Messiah App";
+			};
+			name = Debug;
+		};
+		65DD69831DA7129F00815429 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = TVXD979JG4;
+				INFOPLIST_FILE = "Messiah AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.unanonymous.Messiah-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Messiah App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65DD694B1DA7129D00815429 /* Build configuration list for PBXProject "Messiah App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65DD69791DA7129F00815429 /* Debug */,
+				65DD697A1DA7129F00815429 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65DD697B1DA7129F00815429 /* Build configuration list for PBXNativeTarget "Messiah App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65DD697C1DA7129F00815429 /* Debug */,
+				65DD697D1DA7129F00815429 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		65DD697E1DA7129F00815429 /* Build configuration list for PBXNativeTarget "Messiah AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65DD697F1DA7129F00815429 /* Debug */,
+				65DD69801DA7129F00815429 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		65DD69811DA7129F00815429 /* Build configuration list for PBXNativeTarget "Messiah AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65DD69821DA7129F00815429 /* Debug */,
+				65DD69831DA7129F00815429 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		65DD695A1DA7129E00815429 /* Messiah_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				65DD695B1DA7129E00815429 /* Messiah_App.xcdatamodel */,
+			);
+			currentVersion = 65DD695B1DA7129E00815429 /* Messiah_App.xcdatamodel */;
+			path = Messiah_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 65DD69481DA7129D00815429 /* Project object */;
+}
