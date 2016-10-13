@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6511366B1DAFCB2A003BD357 /* EventDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6511366A1DAFCB2A003BD357 /* EventDetailsViewController.swift */; };
+		6558A9681DAF2F33004931A4 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6558A9671DAF2F33004931A4 /* Event.swift */; };
 		65DD69541DA7129E00815429 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DD69531DA7129E00815429 /* AppDelegate.swift */; };
 		65DD69561DA7129E00815429 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DD69551DA7129E00815429 /* ViewController.swift */; };
 		65DD69591DA7129E00815429 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65DD69571DA7129E00815429 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 		65DD69611DA7129E00815429 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65DD695F1DA7129E00815429 /* LaunchScreen.storyboard */; };
 		65DD696C1DA7129E00815429 /* Messiah_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DD696B1DA7129E00815429 /* Messiah_AppTests.swift */; };
 		65DD69771DA7129F00815429 /* Messiah_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DD69761DA7129F00815429 /* Messiah_AppUITests.swift */; };
+		65DD69851DA717EF00815429 /* Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DD69841DA717EF00815429 /* Table.swift */; };
+		65DD69871DA7201F00815429 /* UnionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DD69861DA7201F00815429 /* UnionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6511366A1DAFCB2A003BD357 /* EventDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailsViewController.swift; sourceTree = "<group>"; };
+		6558A9671DAF2F33004931A4 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		65DD69501DA7129E00815429 /* Messiah App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Messiah App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65DD69531DA7129E00815429 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65DD69551DA7129E00815429 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +55,8 @@
 		65DD69721DA7129F00815429 /* Messiah AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Messiah AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65DD69761DA7129F00815429 /* Messiah_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messiah_AppUITests.swift; sourceTree = "<group>"; };
 		65DD69781DA7129F00815429 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65DD69841DA717EF00815429 /* Table.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Table.swift; sourceTree = "<group>"; };
+		65DD69861DA7201F00815429 /* UnionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,10 @@
 				65DD695F1DA7129E00815429 /* LaunchScreen.storyboard */,
 				65DD69621DA7129E00815429 /* Info.plist */,
 				65DD695A1DA7129E00815429 /* Messiah_App.xcdatamodeld */,
+				65DD69841DA717EF00815429 /* Table.swift */,
+				65DD69861DA7201F00815429 /* UnionView.swift */,
+				6558A9671DAF2F33004931A4 /* Event.swift */,
+				6511366A1DAFCB2A003BD357 /* EventDetailsViewController.swift */,
 			);
 			path = "Messiah App";
 			sourceTree = "<group>";
@@ -266,7 +278,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				65DD69561DA7129E00815429 /* ViewController.swift in Sources */,
+				6511366B1DAFCB2A003BD357 /* EventDetailsViewController.swift in Sources */,
 				65DD695C1DA7129E00815429 /* Messiah_App.xcdatamodeld in Sources */,
+				65DD69851DA717EF00815429 /* Table.swift in Sources */,
+				65DD69871DA7201F00815429 /* UnionView.swift in Sources */,
+				6558A9681DAF2F33004931A4 /* Event.swift in Sources */,
 				65DD69541DA7129E00815429 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -516,6 +532,7 @@
 				65DD697D1DA7129F00815429 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65DD697E1DA7129F00815429 /* Build configuration list for PBXNativeTarget "Messiah AppTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +541,7 @@
 				65DD69801DA7129F00815429 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65DD69811DA7129F00815429 /* Build configuration list for PBXNativeTarget "Messiah AppUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +550,7 @@
 				65DD69831DA7129F00815429 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
