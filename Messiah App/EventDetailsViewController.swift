@@ -9,17 +9,21 @@
 import UIKit
 
 class EventDetailsViewController: UIViewController {
-    @IBOutlet weak var location: UILabel!
-    @IBOutlet weak var event: UILabel!
-    @IBOutlet weak var host: UILabel!
-    @IBOutlet weak var datetime: UILabel!
+    
+    //<div>Font made from <a href="http://www.onlinewebfonts.com">oNline Web Fonts</a>is licensed by CC BY 3.0</div>
+    @IBOutlet weak var v: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        datetime.text = currentEvent?.date
-        event.text = currentEvent?.title
-        // Do any additional setup after loading the view.
+        //navbarTitle.title = ""
+
+        self.navigationController?.navigationBar.barStyle = UIBarStyle.black
+        self.navigationController?.navigationBar.isTranslucent = false
+        self.navigationController?.navigationBar.backgroundColor = v.backgroundColor
+        self.navigationController?.navigationBar.barTintColor = v.backgroundColor
+        self.navigationController?.navigationBar.tintColor = UIColor.white
+        self.navigationItem.backBarButtonItem? = UIBarButtonItem(title:"", style:.plain, target:nil, action:nil)
+                // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
