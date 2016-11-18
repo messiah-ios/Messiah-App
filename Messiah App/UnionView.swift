@@ -15,9 +15,11 @@ class UnionView: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let url: URL = URL(string: "union.messiah.edu")!
-        let request: URLRequest = URLRequest(url: url)
-        web.loadRequest(request)
+        //let url: URL = URL(string: "union.messiah.edu")!
+        //let request: URLRequest = URLRequest(url: url)
+        //web.loadRequest(request)
+        
+        web.loadRequest(URLRequest(url: URL(string: "union.messiah.edu")!))
         // Do any additional setup after loading the view.
     }
 
