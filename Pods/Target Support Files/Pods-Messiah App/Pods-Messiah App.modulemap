@@ -1,0 +1,6 @@
+framework module Pods_Messiah_App {
+  umbrella header "Pods-Messiah App-umbrella.h"
+
+  export *
+  module * { export * }
+}

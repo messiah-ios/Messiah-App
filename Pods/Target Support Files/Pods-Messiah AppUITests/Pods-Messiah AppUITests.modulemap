@@ -1,0 +1,6 @@
+framework module Pods_Messiah_AppUITests {
+  umbrella header "Pods-Messiah AppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
