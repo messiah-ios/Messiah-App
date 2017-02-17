@@ -29,9 +29,9 @@ class ViewController: UIViewController {
 
     
     func initFakeEvents () {
-        eventArr.append(Event(t:"iOS Dev Meeting", d:"10/13/2016"))
-        eventArr.append(Event(t:"Pizza Day", d:"10/13/2016"))
-        eventArr.append(Event(t:"Running home", d:"10/13/2016"))
+        //eventArr.append(Event(t:"iOS Dev Meeting", d:"10/13/2016"))
+        //eventArr.append(Event(t:"Pizza Day", d:"10/13/2016"))
+        //eventArr.append(Event(t:"Running home", d:"10/13/2016"))
     }
 }
 

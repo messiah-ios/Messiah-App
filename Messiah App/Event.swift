@@ -11,10 +11,12 @@ import Foundation
 class Event {
     var title:String
     var date:String
+    var location:String
     
-    init(t:String, d:String) {
+    init(t:String, d:String, l:String) {
         title = t
         date = d
+        location = l
     }
     
 }
